@@ -86,7 +86,7 @@ python -m venv .venv
 .venv/bin/uvicorn app.main:app --reload
 ```
 
-另开终端：
+保持后端终端运行，另开一个终端并进入项目根目录，再启动前端：
 
 ```bash
 cd frontend
